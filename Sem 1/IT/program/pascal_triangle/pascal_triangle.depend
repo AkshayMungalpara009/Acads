@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1507960092 source:c:\users\admin\desktop\pascal_triangle\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

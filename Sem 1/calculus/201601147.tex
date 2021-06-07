@@ -1,0 +1,255 @@
+%MATHS DIWALI ASSIGNMENT 
+
+%Harshit Malaviya
+%201601147
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{times}
+
+\usepackage{type1cm}
+\usepackage{eso-pic}
+
+\usepackage{color}
+\usepackage{ulem}
+\usepackage{everypage}
+\usepackage{url}
+\begin{document}
+
+\title{\textcolor{blue}{Calculation of Work in Any thermodynamics System}}
+
+\begin{center}
+\huge
+ { \textcolor{red}{ 
+{ DIWALI  ASSIGNMENT CALCULUS }       \\
+ }
+}
+\vspace{2 cm}
+\huge\bf
+{Assigned by: Professor Manish K Gupta  \\
+  COURSE      : SC 107   \\
+ Calculus, Where are you?\\
+  FALL 2016 \\
+  DA-IICT      \\
+  GANDHINAGAR  \\
+}
+\vspace{5 cm}
+\LARGE {\it \textcolor{red}{
+  Made by:Harshit Malaviya   \\
+  ID  : 201601147 \\
+}
+}
+\end{center}
+\author{
+        Harshit Malaviya\\
+        }
+         
+         \texttt{201601147@daiict.ac.in}
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+\textcolor{orange}
+{\large{
+In this article, we shall discuss  the mathmatical way of finding the work done for any thermodynamic system
+ \uwave {the work done for any thermodynamic system}.
+\\   This document itself does not go into much depth, manytimes it deviate from the calculated formula but it is a basic formula. }}
+\end{abstract}
+
+
+\newpage
+\large
+\section{\textcolor{blue}{DESCRIPTION OF PROBLEM}}
+\textsf
+ The world is full of thermodynamic activities such as expanding of air to pressure - volume activity.\\Basically A thermodynamic process is a passage of a thermodynamic system from an initial state to a final state.It is not a one thermodynamic state to another thermodynamic state it's of infinitely many equilibrium thermodynamics state.\\Most of the processes are a kind of Polynomial process that goes one state to another state on some Pressure and Volume equation e.g. $\textcolor{blue}{ PV^n }$.
+                                                                               
+
+
+
+\section{\textcolor{blue}{ A FORMAL STATEMENT OF THE PROBLEM }}
+\textsf
+There are two functions $\textcolor{blue}{ f(x) }$ and $\textcolor{blue}{ g(x) }$ which are only dependant on $\textcolor{blue}{ x }$ and there is a relation between the two function $\textcolor{blue}{ f(x){g(x)}^n }$ is some constant.Let us assume constant $\textcolor{blue}{ k }$ and we have to find the basic integration of $\textcolor{blue}{ f(x) }$ with respect of $\textcolor{blue}{ g(x) }$ and that will give us the another function of x.
+Suppose this function is $\textcolor{blue}{ h(x) }$.
+
+
+
+
+In equation,
+
+\[
+\textcolor{blue}
+{
+\mathbf
+ {h(x) = \int{f(x)\,d(g(x))}}
+}
+\]
+
+And also it is given that
+
+\[
+\textcolor{blue}
+ {
+\mathbf{f(x)\,(g(x))^n = Constant = k}
+ }
+\]
+
+So for calculating the h(x) we have to write f(x) in form of g(x)
+
+\[
+\textcolor{blue}
+{
+\mathbf
+{f(x)=\frac{k}{(g(x))^n}}.
+}
+\]
+After this we put value of $\textcolor{blue} {f(x) } $ in the integration we will get the below equation
+
+\[
+\textcolor{blue}
+{
+\mathbf
+{h(x)=\int{f(x)d(g(x))}}
+}
+\]
+\vspace{1cm}
+\[
+\textcolor{blue}
+{
+\mathbf
+{\Rightarrow h(x)=\int{\frac{k\,d(g(x))}{{g(x)}^n}}}
+}
+\]
+\vspace{1cm}
+\[
+\textcolor{red}
+{
+\mathbf
+{\uwave
+{\Rightarrow  h(x)={\frac{k\,{g(x)}^{1-n}}{{-n+1}}} + const   ....}}  ....(1)
+}
+\]
+
+\large
+\section{\textcolor{blue}{REALATING CALCULUS WITH REAL PROBLEM}}
+\textsf
+Now if we take the thermodynamic situation in which a thermodynamic system goes from one thermodynamic condition to another thermodynamic condition.
+\\The initial condition pressure $\textcolor{blue}{ P_1 }$, volume $\textcolor{blue}{  V_1 }$, temprature $\textcolor{blue}{   T_1 }$ and the final condition pressure $\textcolor{blue}{ P_2 }$, volume $\textcolor{blue}{  V_2 }$, temprature $\textcolor{blue}{   T_2 }$. So system goes from initial conditon to final conditon via some thermodynamics process shown by $\textcolor{blue}{  P\,V^n=cons }$ the work done for any process is the sum of all small volume change multiplied by the pressure at that particular instant.So for a small instant of time while there is small volume change we can assume pressure to be constant, so the little work done at that instant is (By defenation)
+\[
+\textcolor{blue}
+{
+\mathbf
+{\Rightarrow dW = P\,dV}
+}
+\]
+
+And for the whole process total work done,
+\[
+\textcolor{blue}
+{
+\mathbf
+{ W =\sum P_i\,(dV)_i}
+}
+\]
+The process countinuosly goes from the initial condition to final condition by infinite many condition so we can make summation to integration
+\[
+\textcolor{blue}
+{
+\mathbf
+{\Rightarrow \int_0^W dW = \int_i^f P\,dV}
+}
+\]
+\[
+\textcolor{blue}
+{
+\mathbf
+{\Rightarrow W = \int_i^f P\,dV}
+}
+\]
+It is the same problem that we have discussed in the second section so the solution of that equation (1) will be
+\[
+\textcolor{blue}
+{
+\mathbf
+{\Rightarrow W = \frac{k\,V^{1-n}}{-n+1} + const }
+}
+\]
+Now putting the limits 
+ \[
+\textcolor{blue}
+{
+\mathbf
+{\Rightarrow W = \frac{k\,V_2^{1-n}}{-n+1} - \frac{k\,V_1^{1-n}}{-n+1} }}
+\]
+If the rule $\textcolor{blue}{PV^n=k}$ is obeyed throughout whole process then k can be substituted by $P_1\,V_1^n or P_2\,V_2^n$ \\
+\[
+\textcolor{blue}
+{
+\mathbf
+{ \Rightarrow W = \frac{P_2\,V_2}{-n+1} - \frac{P_1\,V_1}{-n+1} }
+}
+\]
+
+\[
+\textcolor{red}
+{
+\mathbf
+{\uwave
+{ \Rightarrow W = \frac{{P_2\,V_2}-{P_1\,V_1}}{-n+1}}
+}}
+\]
+
+
+\large
+\section{\textcolor{blue}{ APPLICATIONS }}
+\textsf
+We are surrounded by thermodynamic processes from filling air in bubbule to heating the air also in the making of engines and process happens in engine.In engines there is gas which expands and compress and this compression and expansion of gas convert heat energy from mechanical energy.
+\\
+Now if we take ideal gas in real life which is $\textcolor{red}{impossible}$,For ideal gases
+\[
+\textcolor{blue}
+{
+PV = mRT
+}
+\]
+Putting this values in equation $(2)$ we will get
+\[
+\textcolor{red}
+{
+\mathbf
+{\uwave
+{ \Rightarrow W = \frac{ m \,R\,(T_2 - T_1)}{-n+1} }
+}}
+\]
+So we can conclude that for work done on the real gas is dependant on the initial and final temprature.( if number of moles is being constant.)
+\\
+\\
+\begin{tabular}{ |p{3cm}||p{3cm}|p{5cm}|p{3cm}|  }
+ \hline
+ \multicolumn{3}{|c|}{$\bf\textcolor{red}{Processes}$
+ }\\
+ \hline
+ \textcolor{orange}{Process}     &  \textcolor{orange}{ Value of n} &  \textcolor{orange}{Work done}\\\hline
+ Isobaric   & 0    & $W=P(V_2 - V_1)$\\
+ Isothermal&   1  & $W=m\,R\,\ln(\frac{V_2}{V_1})$\\
+ Adiabatic &$\gamma$ & W=$\frac{m\,R\,(T_2 - T_1)}{-\gamma + 1}$\\
+ Isochoric    &$\infty$ & $W=0$\\
+ \hline
+\end{tabular}
+\\
+\\
+\large
+\section{\textcolor{blue}{ CONCLUSION }}
+\textsf
+With help of proven equation we can find work done for any polytropic process that occurs in universe.If we know the number of rigidity of that gas or molecule we can also calculate heat change($\Delta Q$) or and by both of work done and heat change we can find the change in the total energy($\Delta U$) that only depend on the specific state.Our discussion was only on the process that are conducted between two state with infinitely many states but instantaneous process doesn't obey some rules.Thermodynamics is very broad area of studies and the calculus is need to solve any thermodynamic problem directly or indirectly.They are connected to each other.
+\\
+
+\vspace{2cm}
+My youtube video:
+\url{https://youtu.be/zI6flmqu7w8}
+
+\cite{*}
+\bibliographystyle{plain}
+\bibliography{201601147}
+
+\end{document}
+

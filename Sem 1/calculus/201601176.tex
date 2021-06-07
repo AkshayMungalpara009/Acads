@@ -1,0 +1,279 @@
+%CALCULUS DIWALI ASSIGNMENT	
+%KAVIT SHAH
+%201601176	
+%DA-IICT,GANDHINAGAR
+\documentclass[14pt]{article}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{type1cm}
+\usepackage[nottoc]{tocbibind}
+\usepackage{eso-pic}
+\usepackage{color}
+\usepackage{ulem}
+\usepackage{everypage}
+\usepackage{amssymb}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage[margin=2 cm]{geometry}
+\usepackage{pagecolor,lipsum}
+\begin{document}
+\pagecolor{blue!10!white}
+\vspace{1cm}
+\begin{center}
+\Huge{\bf \textcolor{blue!80!white}{ DIWALI ASSIGNMENT \\ ON CALCULUS}
+     }
+\end{center}
+\begin{center}
+\vspace{1.5cm}
+\huge{\underline{ASSIGNED BY}:\textsl{ PROF. MANISH K GUPTA}\\COURSE: SC107\\CALCULUS ON COMPLEX VARIABLES\\
+FALL 2016\\DA-IICT, GANDHINAGAR\\
+	 }
+\end{center}
+\vspace{1cm}
+\begin{center}\huge
+{\textcolor{blue}
+{\underline{MADE BY}: \textsl{KAVIT SHAH}\\
+ ID: 201601176\\
+ DA-IICT,GANDHINAGAR\\
+ 201601176@daiict.ac.in\\
+}
+} 
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\includegraphics[scale=1]{201601176_fig1.png}
+\end{center}
+\newpage
+\vspace{1cm}
+\begin{center}
+\Huge{\bf \textcolor{blue!80!white}{ THE SKY DIVING PROBLEM}
+     }
+\end{center}
+\vspace{1.5cm}
+\begin{center}
+\huge{\underline{\textcolor{blue!60!green}{ABSTRACT}}
+     }
+\end{center}
+\vspace{0.5cm}
+\huge{\textcolor{red}{In this article I shall discuss the analytical way of solving \underline{"THE SKY DIVING PROBLEM"}.\ I shall try to find the speed of the sky diver at any time $t$ (assuming that the parachute opens at time $t=0$) taking various parameters into \\ consideration, with various assumptions.
+                     }
+     }   
+\vspace{3cm}
+\begin{center}
+\includegraphics[scale=0.2]{201601176_fig2.jpg}
+\end{center}
+\cite{imagea}
+\newpage
+\vspace{1cm}
+\begin{enumerate}
+\Huge\item{\textcolor{blue!80!white}{INTRODUCTION}}
+\linebreak
+\\ \huge 'THE SKY DIVING PROBLEM' is a typical mathematical problem which has its solution through differencial equation along with the Newton's Second Law of Motion
+$i.e. \textcolor{blue}{F=ma}$, where F is the net force,m is the mass of the body and a is the net acceleration of the body. 
+\cite{NLM}
+\\
+The problem statement of 'THE SKY DIVING PROBLEM' is given below: \\
+Suppose that a Sky Diver from rest towards the earth and the parachute opens at an instant, call it \textcolor{blue}{$t=0$}, when the Sky Diver's speed is \textcolor{blue}{$v(0)=v_{0}=10.0$ $m/sec.$} 
+Find the speed of the Sky Diver at any later time $t$. 
+\cite{page}
+\\
+\Huge\item{\textcolor{blue!80!white}{A FORMAL STATEMENT OF THE PROBLEM}}
+\linebreak
+\\ \huge The problem stated above has various assumptions to be made.The following fuller statement of the problem attempts to make most of those assumptions explicit. \\
+Consider that the parachute of the Sky Diver opens at time \textcolor{blue}{$t=0$}.Assume that the weight of the Sky Diver and the equipment is \textcolor{blue}{$712N$}, where \textcolor{blue}{$N$} is Newtons , and the air \\ resistance \textcolor{blue}{$U$} is proportional to \textcolor{blue}{$v^2$}, $i.e.$ \textcolor{blue}{$U=bv^2$}, where \textcolor{blue}{$b$} is costant, depending mainly on the parachute, \\ let \textcolor{blue}{\bf $\quad b=30\frac{Ns^2}{m^2}=30\frac{kg}{m}$} \\
+\Huge\item{\textcolor{blue!80!white}{AN ANALYTICAL SOLUTION}}
+\\
+\\ \huge By Newton's Second Law of Motion, $i.e.$ , \\
+\textcolor{blue}{$Force=mass*acceleration$}, \\ Here, the force is the sum of forces acting on the Sky Diver at any instant.These forces are the weight \textcolor{blue}{$W$} and the air resistance \textcolor{blue}{$U$} \\
+The weight \[
+\textcolor{blue!80!white}
+{
+\mathbf
+ {W=mg=712N }
+}
+\]
+
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+ { \therefore m=\frac{W}{g}=\frac{712}{9.8}=72.7kg }
+}
+\] 
+,which is the mass of the Sky Diver plus the equipment.
+\begin{center}\includegraphics[scale=2]{201601176_fig3.jpg} \cite{imageb}\end{center}
+\cite{imageb} 
+\\ \\
+Equating the two forces \textcolor{blue}{$F$} and \textcolor{blue}{$W-U$} ,
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+ { (F=) ma=mg-bv^2\quad(=W-U) }
+}
+\]
+
+Now, \[
+\textcolor{blue!80!white}
+{
+\mathbf
+ { m \left(\frac{dv}{dt}\right)=mg-bv^2\quad\textcolor{brown}{[1]}\quad\left(\because a=\frac{dv}{dt}\right)}
+}
+\]
+Equation \textcolor{brown}{$[1]$}  can be solved using variable separable differential equation and equation of speed of the Sky Diver at any time $\textcolor{blue}{t}$, after opening the parachute can be found out, as given below: \\
+\\
+Equation \textcolor{brown}{$[1]$}  can be written as,
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+ { \quad \quad \large \large \large \large \large \large \large \: m\frac{dv}{dt}=b\left(\frac{mg}{b}-v^2\right)}
+}
+\]
+Let  $k^2=\dfrac{mg}{b}$  , \\
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+ { \therefore \; \; m\frac{dv}{dt}=b(k^2-v^2)}
+}
+\] 
+\vspace{0.2cm}
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+ { \therefore \: \dfrac{1}{v^2-k^2}dv=-\dfrac{b}{m}dt}
+}
+\]
+\\ 
+Integrating on both the sides, \\
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+ { \quad \quad \: \therefore \: \int{\dfrac{1}{v^2-k^2}dv}=\int{-\dfrac{b}{m}dt}}
+}
+\]
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+ { \quad \quad \quad \quad \: \therefore \: \int{\dfrac{1}{v^2-k^2}dv}=-\dfrac{b}{m}t+c\quad \textcolor{brown}{[2]}}
+}
+\]
+Now,
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+ { \quad \quad \dfrac{1}{v^2-k^2}=\dfrac{1}{2k}\left(\dfrac{1}{v-k}-\dfrac{1}{v+k}\right)}
+}
+\]
+Multiplying by dv and then taking integration on both sides \\
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+ { \quad \therefore \: \int{\dfrac{1}{v^2-k^2}dv}=\frac{1}{2k}\int{\left(            \frac{1}{v-k}-\frac{1}{v+k}\right)dv}}
+}
+\]
+\vspace{0.2cm}
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+ {\quad \quad \quad \quad \quad \quad \quad \quad =\frac{1}{2k}\left[\;\ln(v-k)-\ln(v+k)\right\;]}
+}
+\]
+\vspace{0.2cm}
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+ {\quad \quad \; \;\; =\frac{1}{2k}\ln\left(\frac{v-k}{v+k}\right)}
+}
+\]
+Substituting in $\,$ \textcolor{brown}{[2]} \\
+\[
+\textcolor{blue!80!white}
+{
+\mathbf
+  {\therefore \: {\frac{1}{2k} \ln\left(\frac{v-k}{v+k}\right)} \:= \: -\frac{b}{m}t+c\quad \quad \quad \quad \quad \: }
+}
+\]
+\vspace{0.3cm}
+\[
+\textcolor{blue!80!white}
+{
+\mathbf 
+ { \therefore \ln\left(\frac{v-k}{v+k}\right)\:=\: (2k)\left(-\frac{b}{m}t\right)+c(2k) \quad \; \; }
+}
+\]
+\vspace{0.2cm}
+\[
+\textcolor{blue!80!white}
+{
+\mathbf 
+ { \therefore c_1e^{-pt}=\dfrac{v-k}{v+k} \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad  }
+}
+\] \\
+,where
+\[
+\textcolor{black!80!white}
+{
+\mathbf 
+ {  \; p=\dfrac{2kb}{m} \: and \: c_1=e^{2kc} }
+}
+\]
+\vspace{0.2cm}
+\[
+\textcolor{blue!80!white}
+{
+\mathbf 
+ {  \therefore (v-k)=(v+k)e^{-pt} \quad \quad \quad \quad \quad \quad \quad \:   }
+}
+\]
+\[
+\textcolor{blue!80!white}
+{
+\mathbf 
+ {  \therefore (v-k)=vc_1e^{-pt}+kc_1e^{-pt} \quad \quad \quad \quad \quad  }
+}
+\]
+\vspace{0.1cm}
+\[
+\textcolor{blue!80!white}
+{
+\mathbf 
+ {  \therefore v-vc_1e^{-pt}=kc_1e^{-pt}+k \quad \quad \quad \quad \quad \; \; }
+}
+\]
+\vspace{0.1cm}
+\[
+\textcolor{blue!80!white}
+{
+\mathbf 
+ {  \therefore v(1-c_1e^{-pt})=k(1+c_1e^{-pt})\quad \quad \quad \; \; \; \: }
+}
+\]
+\vspace{0.1cm}
+\[
+\textcolor{blue!80!white}
+{
+\mathbf 
+ {  \therefore \textcolor{red!80!white}{v(t)=k\dfrac{(1+c_1e^{-pt})}{(1-c_1e^{-pt})}}\quad \quad \quad \quad \quad \quad \quad \quad }
+}
+\] \\
+
+This is the required equation for the speed of the Sky Diver at any time $t$ after opening the parachute. \\
+\Huge\item{\textcolor{blue!80!white}{APPLICATIONS}} \\
+\\
+\huge This problem can be used to find the height upto which the aircraft has to be taken so that there is enough time for the opening of the parachute and ensures a safe landing of the Sky Diver.This can also be used by the aircraft people when the aircraft it about to crash and an emergency exit is required(to work out the height,speed etc.)  \\
+\newpage
+\Huge\item{\textcolor{blue!80!white}{CONCLUSION}} \\
+\\ \huge Therefore, from the final equation of speed that we have derived using differential equation, the speed of the Sky Diver does not increase indefinitely but approaches \\ a limit   \bf k
+\end{enumerate}
+\bibliographystyle{plain}
+\bibliography{201601176a}
+\end{document}

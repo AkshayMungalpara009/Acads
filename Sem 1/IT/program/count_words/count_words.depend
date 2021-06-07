@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1508079991 source:c:\users\admin\desktop\count_words\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1508263974 source:d:\sem 1\it\program\count_words\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

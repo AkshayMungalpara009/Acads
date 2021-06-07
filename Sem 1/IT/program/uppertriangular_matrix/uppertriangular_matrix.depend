@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508792985 source:c:\users\admin\desktop\uppertriangular_matrix\main.c
+	<stdio.h>
+	<stdlib.h>
+

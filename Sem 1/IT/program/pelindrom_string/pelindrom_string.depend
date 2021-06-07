@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508325995 source:c:\users\admin\desktop\pelindrom_string\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

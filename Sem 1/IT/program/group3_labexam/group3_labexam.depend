@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1508858579 source:c:\users\admin\desktop\group3_labexam\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1508865111 source:d:\sem 1\it\program\group3_labexam\main.c
+	<stdio.h>
+

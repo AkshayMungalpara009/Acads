@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1508006048 source:c:\users\admin\desktop\multiplication_of_twomatrix\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1508061334 source:c:\users\admin\desktop\reverce\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1508148326 source:c:\users\admin\desktop\program\reverce\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

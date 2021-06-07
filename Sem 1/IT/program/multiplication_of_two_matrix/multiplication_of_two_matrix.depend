@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508082743 source:c:\users\admin\desktop\multiplication_of_two_matrix\main.c
+	<stdio.h>
+	<stdlib.h>
+

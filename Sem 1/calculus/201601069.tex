@@ -1,0 +1,226 @@
+% MATHS DIWALI ASSIGNMENT 
+
+% Amey Ghate 
+% 201601069
+
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{times}
+
+\usepackage{type1cm}
+\usepackage{eso-pic}
+
+\usepackage{color}
+\usepackage{ulem}
+\usepackage{everypage}
+\usepackage{amssymb}
+\usepackage{draftwatermark}
+% Use the following to make modification
+\usepackage[margin=3 cm]{geometry}
+%packages added
+\usepackage{amsmath}
+
+%\usepackage[usenames,dvipsnames]{color}
+\begin{document}
+
+\SetWatermarkAngle{45}
+\SetWatermarkLightness{0.95} 
+\SetWatermarkFontSize{1cm}
+\SetWatermarkScale{5}
+\SetWatermarkText{Amey Ghate}
+
+
+% Article top matter
+\title{\textcolor{blue}{Calculus used in Defence Strategy}}
+
+\begin{center}
+\Huge
+{\bf \textcolor{blue}{ 
+{ DIWALI ASSIGNMENT ON CALCULUS} \\
+}
+}
+\vspace{2 cm}
+\huge\bf
+{ Assigned by : Professor Manish K Gupta \\
+COURSE : SC 107 \\
+Calculus with complex variables \\
+FALL 2016 \\
+DA-IICT \\
+GANDHINAGAR \\
+}
+\vspace{5 cm}
+\LARGE {\it
+{ 
+Made by: Amey Ghate \\
+ID : 201601069 \\
+}
+}
+\end{center}
+\author{
+Amey Ghate\\
+201601069,\\
+DAIICT,\\
+GANDHINAGAR,\\
+INDIA\\
+\texttt{201601069@daiict.ac.in}
+} 
+\date{\today}
+%\today is replaced with the current date
+
+\maketitle
+
+\begin{abstract}
+\textcolor{blue}
+{
+\large
+{
+In this document, I shall discuss how to use calculus in defining country's
+\uwave {`competitive defence strategy'}.
+We will see the mathematical model for rate of growth of economy
+and impact of defence expenditure. \uwave {`How country's economy can get devastated'} 
+due to over defence spending. 
+}
+}
+\end{abstract}
+
+\begin{center}
+\includegraphics{201601069_daiict.png}
+\end{center}
+
+\newpage
+\large
+\section{\textcolor{blue}{INTRODUCTION}}
+
+
+The amount of money which a country can invest on defence is determined by the size of its economy
+i.e. (GDP of that country). Bigger the economy, greater is the country’s ability to spend on defence.
+A country can use economic warfare as a strategy to weaken the economy of another country.
+
+Two hostile countries have competition between them to have the best armed forces each country
+competes to produce larger number of weapons, greater army and superior military technology.
+This causes strain on economy of both the countries. In this document we will see how a faster growing 
+economy can devastate any country by just increasing defence expenditure.
+
+Details of economic warfare and arms race is available at: \cite{1} \cite{2}
+
+\section{\textcolor{blue}{ MATHEMATICAL MODEL }}
+%\textsf
+A mathematical model for rate of growth of economy w.r.t. economy of the country and its defence 
+expenditure is discussed in \cite{3}. It can be simplistically represented as 
+
+$Rate of growth = constant*current GDP – defence expenditure$
+\vspace{.5 cm}
+
+\textcolor{blue}
+{
+$f'(t) = k f(t) - d(t)$ \\
+where: 
+\begin{align*}
+f(t) &= \textit{current GDP} \\
+t &= \textit{time measured in years} \\
+f’(t) &= \textit{rate of change of GDP w.r.t. time} \\
+k &= \textit{constant – coefficient determining the pace of economic growth} \\
+d(t) &= \textit{defence expenditure} 
+\end{align*}
+}
+%\vspace{.25 cm}
+
+defence expenditure of a country is considered to be a fraction of its GDP. Thus the equation will become 
+$d(t) = q* f(t)$ here 'q' is the percentage of GDP being spent on defence. 
+
+Now substituting the values in $f’(t) = k*f(t) - d(t)$ and integrating we get
+$f(t) = f(0)*e^{(k-q)t}$ here in the above equation f(0) is the value of GDP at t=0.
+
+\newpage
+\section{\textcolor{blue}{REAL LIFE SITUATION}}
+\textsf
+Country A and Country B are competing with each other and are in economic warfare. Both the 
+countries want to keep balance of power hence they are bound to invest equally in defence.
+Country A and B have 10 trillion GDP initially.
+Country A has 10 percent growth rate whereas country B has 2.5 percent growth rate
+Country A decides to invest 4 percent of GDP into Defence. Despite weak growth rate
+Country B is forced to invest 4 percent into Defence.
+Now Country A is in dominating position to decide its Defence expenditure strategy and
+economically ruin Country B.
+
+
+\section{\textcolor{blue}{USE OF MATHEMATICAL MODEL TO REAL LIFE SITUATION}}
+\textsf
+Let us know understand how country A can use Calculus to economically devastate country B
+
+Consider country A having its GDP $A(t) = A(0)*e^{(k-a)t}$
+Let 10 trillion be initial GDP and 10 percent is the growth rate, let 4 percent be the expenditure on the defence.
+
+$A(t) = 10 trillion * e^{(10-4)t}$
+
+Country B has to match defence expenditure and assume it’s growth rate is 2.5 percent
+
+$B'(t) = l*B(0) - a * A * e^{(k-a)t}$ ,
+
+here I is the growth rate of country and B(0) = 10 trillion
+Integrating both sides of $B'(t) = l*B(0)-{a*A*e}^{(k-a)t}$ from 0 to t, we get 
+
+\textcolor{blue}
+{
+\[
+\mathbf
+{
+B(t) = e^{lt}[B(0)-\int{a*A(0)e^{(k-a-l)*t}}] \\
+}
+\]
+}
+Wherein \\
+\textcolor{blue}
+{
+\[
+\mathbf
+{
+B(t) = e^{l*t}{B(0)-(a*A(0)[e^{(k-a-l)t}-1]/(k-a-l))} \\
+}
+\]
+}
+Putting the values now – 
+\[
+\textcolor{blue}
+{
+\mathbf
+{
+B(t) = e^{2.5t}{10 trillion – (4*10 trillion[e^{3.5t} - 1]/3.5)}
+}
+}
+\]
+
+Country B will get economically devastated when its GDP becomes "0" 
+due to the defence expenditure and the equation becomes - 
+\[
+\textcolor{blue}
+{
+\mathbf
+{
+0 = B(0) – a*A(0)*[e^{(k-a-l)t}-1]/(k-a-l))
+}
+}
+\]
+Solving above equation we get 
+\[
+\textcolor{blue}
+{
+\mathbf
+{
+T = ln[1 + [(k-a-l) *B(0) /( a*A(0))]*1/(k-a-l)
+}
+}
+\]
+Solving this we understand that country B does not have economic existence after 17 years.
+
+\section{\textcolor{blue}{CONCLUSION}}
+\textsf
+{
+Calculus can be used in determining defence expenditure and strategy. Dominant nation can actually plan economic fall of competing nation. This is how
+Country A adopted defence investment to economically devastate County B
+}
+\bibliographystyle{plain}
+\bibliography{201601069}
+
+\end{document} 
+%End of document.

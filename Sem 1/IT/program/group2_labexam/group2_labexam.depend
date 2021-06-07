@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508918809 source:c:\users\admin\desktop\group2_labexam\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

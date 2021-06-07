@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1513785608 source:c:\users\admin\desktop\tictectoc1\main.c
+	<stdio.h>
+
+1514391166 source:d:\sem 1\it\program\new\tictectoc1\main.c
+	<stdio.h>
+
+1516968585 source:d:\kheni\sem 1\it\program\new\tictectoc1\main.c
+	<stdio.h>
+	<stdlib.h>
+

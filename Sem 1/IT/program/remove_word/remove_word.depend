@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1508261458 source:c:\users\admin\desktop\remove_word\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1508387041 source:d:\sem 1\it\program\remove_word\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
